@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 ul{
     list-style: none;
 }
@@ -16,7 +19,6 @@ img{
 }
 .nav_container{
     width: 100%;
-    position: static;
 }
 nav{
     display: flex;
@@ -43,13 +45,13 @@ nav ul li{
 .nav_link:hover{
     color: #4267B2;
 }
-.home_container{
+.container{
     display: flex;
     width: 80%;
     padding: 20px 0;
     margin: auto;
     margin-top: 50px;
-
+    margin-bottom: 100px;
 }
 .flex_container{
     width: 50%;
@@ -64,8 +66,12 @@ p{
     width: 70%;
     padding-left: 10%;
 }
+.flex_container h1{
+    font-size: 50px;
+}
 .flex_container h3{
     margin-top: 5px;
+    font-size: 18px;
 }
 .flex_container p{
     margin-top: 20px;
@@ -96,7 +102,7 @@ p{
     transition: 0.3s;
 }
 .scroll{
-    margin-top: 120px;
+    margin-top: 80px;
     color: #4267B2;
     transition: 0.3s;
     display: block;
@@ -110,4 +116,88 @@ p{
 }
 .scroll_name{
     color: #191b1b;
+}
+.about_title-container{
+    text-align: center;
+}
+.about_title-container h1{
+    font-size: 40px;
+}
+.about_title-container p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.about_description{
+    margin-bottom: 20px;
+}
+.flex_box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.about_info_title, .about_info_name{
+    display: block;
+    text-align: center;
+}
+.about_info_title{
+    font-size: 20px;
+    font-weight: 550;
+}
+.about_info_name{
+    font-size: 13px;
+    font-weight: 300;
+    color: #4D5656;
+}
+.skills_title-container{
+    text-align: center;
+}
+.skills_title-container h1{
+    font-size: 40px;
+}
+.skills_title-container p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.skill_info_title, .skill_info_name{
+    display: block;
+    text-align: center;
+}
+.skills_info_title{
+    font-size: 20px;
+    font-weight: 550;
+}
+.skills_info_name{
+    font-size: 13px;
+    font-weight: 300;
+    color: #4D5656;
+}
+.contact_input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #4267B2;
+    outline: none;
+    margin-bottom: 20px;
+}
+.contact_icon{
+    color: #4267B2;
+    font-size: 20px;
+}
+footer{
+    background-color: #324c81;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    color: #fff;
+}
+.footer_title{
+    text-align: center;
+    color: #fff;
+}
+.footer_copyright{
+    text-align: center;
+}
+.footer_copyright p{
+    color: #959b9b;
 }
